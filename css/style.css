@@ -1,0 +1,135 @@
+/* Write CSS Here */
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} */
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+p{
+	text-align: justify;
+}
+
+h1{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+	text-decoration: underline #070A52;
+	color: rgb(248, 248, 240);
+}
+h2{
+	color: #075214;
+}
+h3{
+	font-size: medium;
+	color: rgb(4, 156, 80);
+}
+h4{
+	width: 175px;
+	text-align: right;
+}
+
+.container-fluid {
+	max-width: 1000px;
+	min-height: 100px;
+	display: flex;
+	/* grid-template-columns: 2fr 4fr; */
+	background-color: #070A52;
+}
+
+
+.container-lg {
+	width: 40%;
+	position: initial;
+	background-color:#070A52;
+	padding: 30px 20px;
+    color: rgb(226, 244, 149);
+	display: grid;
+
+}
+.education{
+	margin-top: t50px;
+}
+.skill{
+	margin-top: 50px;
+	color: rgb(226, 244, 149);
+}
+.inner-container{
+	text-align: right;
+}
+.container-fluid{
+	position: absolute;
+	top: 200px;
+	align-items: flex-start;
+	font-size: small;
+}
+.container-xxl{
+	width: 100%;
+	position: initial;
+	background-color:#ffffffcc;
+	padding:30px 20px;
+	color: #070A52;
+	display: grid;
+	margin-left: 0px;
+}
+.profile-picture{
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+}
+.year1{
+	
+	height: 50px;
+	box-align: right;
+	position: absolute;
+	top: 380px;
+}
+.year2{
+	text-align: left;
+    height: 20px;
+    position: absolute;
+    top: 720px;}
+
+.year3{
+	text-align: left;
+	height: 20px;
+	position: absolute;
+	top: 1050px;
+}
+.year4{
+	text-align: left;
+	height: 20px;
+	position: absolute;
+	top: 1350px;
+}
+.University{
+	font-size: 1rem;
+	font-weight: lighter;
+}
+/* .image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+} */
+
+@media(max-width:920px){
+.year1{
+	/* position: relative; */
+top: 400px;
+}
+.year2{
+	/* position: relative; */
+	top: 830px;
+}
+.year3{
+	/* position: relative; */
+	top: 1270px;
+}
+.year4{
+/* position: relative; */
+top: 1690;
+	} 
+}
+	
+
